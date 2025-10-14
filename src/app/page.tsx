@@ -1,12 +1,11 @@
-import { Button } from "@/components/ui/button"
+import Header from "@/components/ui/header"
 
-const HomePage = () => {
+const Home = () => {
   return (
     <div>
-      <h1>Home page</h1>
-      <Button>Button</Button>
+      <Header />
     </div>
   )
 }
 
-export default HomePage
+export default Home
