@@ -14,7 +14,7 @@ const options = [
 
 const Sidebar = () => {
   return (
-    <SheetContent side="right" className="w-72 bg-[#1E4661] p-6 text-white">
+    <SheetContent side="right" className="bg-primary w-72 p-6 text-white">
       <SheetHeader className="mb-4 p-0">
         <SheetTitle className="text-left text-base font-semibold text-white">
           Menu
