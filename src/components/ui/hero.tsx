@@ -24,8 +24,7 @@ const Hero = () => {
 
           <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center md:px-12">
             <h1 className="max-w-[32ch] text-2xl leading-tight font-extrabold text-white md:text-5xl">
-              Mais de 20 anos conectando você aos melhores destinos do Brasil e
-              do mundo
+              Mais de 20 anos conectando você aos melhores destinos
             </h1>
 
             <div className="mt-6 flex flex-row flex-wrap items-center justify-center gap-4">
