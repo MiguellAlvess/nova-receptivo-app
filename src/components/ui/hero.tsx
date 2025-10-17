@@ -9,7 +9,7 @@ import { Card, CardContent } from "./card"
 
 const Hero = () => {
   return (
-    <Card className="relative overflow-hidden rounded-xl border-none shadow-none">
+    <Card className="relative gap-0 overflow-hidden rounded-none border-0 py-0 shadow-none">
       <CardContent className="p-0">
         <div className="relative h-[380px] w-full md:h-[520px]">
           <Image
@@ -20,10 +20,17 @@ const Hero = () => {
             sizes="100vw"
             className="object-cover"
           />
+
           <div className="absolute inset-0 bg-[#1E4661]/70" />
 
           <div className="absolute inset-0 flex flex-col items-center justify-center px-6 text-center md:px-12">
-            <h1 className="max-w-[32ch] text-2xl leading-tight font-extrabold text-white md:text-5xl">
+            <h1
+              className="max-w-[32ch] text-2xl leading-tight font-extrabold text-white md:text-5xl"
+              style={{
+                textShadow:
+                  "0 2px 4px rgba(0,0,0,0.4), 0 4px 12px rgba(0,0,0,0.6)",
+              }}
+            >
               Mais de 20 anos conectando você aos melhores destinos
             </h1>
 
