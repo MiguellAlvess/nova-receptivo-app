@@ -21,6 +21,12 @@ const eslintConfig = [
       "simple-import-sort/exports": "error",
     },
   },
+  {
+    files: ["**/*.config.js", "**/*.config.cjs", "jest.config.js"],
+    rules: {
+      "@typescript-eslint/no-require-imports": "off",
+    },
+  },
 ]
 
 export default eslintConfig
