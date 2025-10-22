@@ -16,7 +16,6 @@ export default function Footer() {
   return (
     <footer className="mt-16 bg-[#1F2937] text-slate-300">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-12 md:grid-cols-4">
-        {/* === COLUNA 1 === */}
         <div>
           <div className="mb-3 flex items-center gap-2">
             <Image
@@ -32,7 +31,9 @@ export default function Footer() {
           </p>
           <div className="mt-4">
             <Link
-              href="#"
+              href="https://www.instagram.com/novareceptivo/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-slate-700 transition hover:bg-[#22C55E] hover:text-white"
               aria-label="Instagram"
             >
@@ -41,7 +42,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* === COLUNA 2 === */}
         <div>
           <h3 className="mb-3 text-lg font-semibold text-white">Newsletter</h3>
           <p className="mb-4 text-sm text-slate-400">
@@ -73,7 +73,6 @@ export default function Footer() {
           </form>
         </div>
 
-        {/* === COLUNA 3 === */}
         <div>
           <h3 className="mb-3 text-lg font-semibold text-white">Contatos</h3>
           <ul className="space-y-2 text-sm">
@@ -91,7 +90,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* === COLUNA 4 === */}
         <div>
           <h3 className="mb-3 text-lg font-semibold text-white">Localização</h3>
           <ul className="space-y-2 text-sm">
@@ -120,7 +118,6 @@ export default function Footer() {
         </div>
       </div>
 
-      {/* === RODAPÉ INFERIOR === */}
       <div className="border-t border-slate-700 py-4 text-center text-xs text-slate-500">
         <p>CNPJ: 12.345.678/0001-90 | Registro Embratur: ABC-123456</p>
         <p className="mt-1">
