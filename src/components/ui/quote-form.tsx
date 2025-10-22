@@ -67,26 +67,26 @@ export default function FlightQuoteForm({ onSubmit }: FlightQuoteFormProps) {
   }
 
   return (
-    <section className="w-full">
-      <div className="mb-6 text-center">
-        <h2 className="flex items-center justify-center gap-2 text-3xl font-extrabold tracking-tight text-[#0B5FAE] md:text-4xl">
+    <section className="w-full px-4 sm:px-6">
+      <div className="mb-10 text-center sm:mb-12">
+        <h2 className="mx-auto flex max-w-3xl items-center justify-center gap-2 text-3xl leading-tight font-extrabold tracking-tight text-[#0B5FAE] sm:text-4xl">
           <Plane className="h-7 w-7" /> Cotação Aérea
         </h2>
-        <p className="mt-2 text-slate-600">
+        <p className="mx-auto mt-3 max-w-2xl px-1 text-sm leading-relaxed text-slate-600 sm:mt-4 sm:text-base">
           Encontre os melhores preços para sua viagem. Faça sua cotação
           gratuita!
         </p>
       </div>
 
       <div className="mx-auto w-full max-w-5xl rounded-2xl bg-white shadow-lg ring-1 ring-slate-100">
-        <div className="px-6 py-6 md:px-10 md:py-8">
-          <h3 className="mb-6 text-center text-2xl font-bold text-[#0B5FAE]">
+        <div className="px-5 py-6 sm:px-8 md:px-10 md:py-8">
+          <h3 className="mb-6 text-center text-2xl font-bold text-[#0B5FAE] sm:mb-8">
             Solicite sua Cotação
           </h3>
 
           <form
             onSubmit={handleSubmit}
-            className="grid grid-cols-1 gap-4 md:grid-cols-2"
+            className="grid grid-cols-1 gap-5 sm:gap-6 md:grid-cols-2"
           >
             <div className="md:col-span-2">
               <label

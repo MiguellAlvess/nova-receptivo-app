@@ -1,4 +1,5 @@
 import FeaturedPackages from "@/components/ui/featured-packages"
+import Footer from "@/components/ui/footer"
 import Header from "@/components/ui/header"
 import Hero from "@/components/ui/hero"
 import FlightQuoteForm from "@/components/ui/quote-form-client"
@@ -12,6 +13,7 @@ const Home = () => {
       <ServicesSection />
       <FeaturedPackages className="mt-10 md:mt-16" items={featuredPackages} />
       <FlightQuoteForm />
+      <Footer />
     </div>
   )
 }
