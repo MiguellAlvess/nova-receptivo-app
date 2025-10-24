@@ -3,11 +3,11 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useRef } from "react"
 
-import { campinaSpots } from "@/data/campina-spots"
+import { internationalPackages } from "@/data/international-packages"
 
-import CampinaSpotCard from "./campina-spot-card"
+import CardPackages from "./card-packages"
 
-export default function CampinaSpots() {
+export default function InternationalPackages() {
   const scrollerRef = useRef<HTMLDivElement>(null)
 
   const scroll = (dir: "left" | "right") => {
@@ -19,15 +19,15 @@ export default function CampinaSpots() {
 
   return (
     <section
-      aria-labelledby="campina-spots-heading"
+      aria-labelledby="international-packages-heading"
       className="relative mx-auto max-w-6xl px-4 py-8 sm:py-10 md:px-6 md:py-14"
     >
       <div className="mb-4 flex items-end justify-between sm:mb-6">
         <h2
-          id="campina-spots-heading"
+          id="international-packages-heading"
           className="text-xl font-bold tracking-tight text-slate-900 sm:text-2xl md:text-3xl"
         >
-          Pontos turísticos de Campina Grande
+          Pacotes internacionais
         </h2>
       </div>
 
@@ -37,17 +37,23 @@ export default function CampinaSpots() {
           className="-mx-4 overflow-x-auto scroll-smooth px-4 pb-2 [-ms-overflow-style:none] [scrollbar-width:none]"
         >
           <div className="flex snap-x snap-mandatory gap-3 sm:gap-4">
-            {campinaSpots.map((s) => (
+            {internationalPackages.map((pkg) => (
               <div
-                key={s.id}
+                key={pkg.id}
                 className="snap-center md:snap-start"
-                aria-label={s.title}
+                aria-label={pkg.title}
               >
-                <CampinaSpotCard
-                  title={s.title}
-                  description={s.description}
-                  image={s.image}
-                  href={s.href}
+                <CardPackages
+                  imageSrc={pkg.imageSrc}
+                  imageAlt={pkg.imageAlt}
+                  title={pkg.title}
+                  description={pkg.description}
+                  duration={pkg.duration}
+                  people={pkg.people}
+                  price={pkg.price}
+                  href={pkg.href}
+                  featured={pkg.featured}
+                  rating={pkg.rating}
                 />
               </div>
             ))}
