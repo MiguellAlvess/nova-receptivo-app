@@ -32,7 +32,6 @@ export default function CampinaSpots() {
       </div>
 
       <div className="group relative">
-        {/* Scroller */}
         <div
           ref={scrollerRef}
           className="-mx-4 overflow-x-auto scroll-smooth px-4 pb-2 [-ms-overflow-style:none] [scrollbar-width:none]"
@@ -55,15 +54,10 @@ export default function CampinaSpots() {
           </div>
         </div>
 
-        {/* Gradientes laterais (desktop) */}
-        <div className="pointer-events-none absolute top-0 left-0 hidden h-full w-12 bg-gradient-to-r from-white to-transparent md:block" />
-        <div className="pointer-events-none absolute top-0 right-0 hidden h-full w-12 bg-gradient-to-l from-white to-transparent md:block" />
-
-        {/* Setas: fora do carrossel, só no desktop e visíveis no hover */}
         <button
           onClick={() => scroll("left")}
           aria-label="Anterior"
-          className="absolute top-1/2 -left-4 hidden -translate-y-1/2 items-center justify-center rounded-full border border-slate-200 bg-white/90 p-2 opacity-0 shadow-md backdrop-blur transition group-hover:opacity-100 hover:bg-white sm:p-3 md:flex"
+          className="absolute top-1/2 -left-4 hidden -translate-y-1/2 items-center justify-center rounded-full border border-slate-200 bg-white p-2 opacity-0 shadow-md transition group-hover:opacity-100 hover:bg-white sm:p-3 md:flex"
         >
           <ChevronLeft className="h-5 w-5 text-slate-700 sm:h-6 sm:w-6" />
         </button>
@@ -71,13 +65,12 @@ export default function CampinaSpots() {
         <button
           onClick={() => scroll("right")}
           aria-label="Próximo"
-          className="absolute top-1/2 -right-4 hidden -translate-y-1/2 items-center justify-center rounded-full border border-slate-200 bg-white/90 p-2 opacity-0 shadow-md backdrop-blur transition group-hover:opacity-100 hover:bg-white sm:p-3 md:flex"
+          className="absolute top-1/2 -right-4 hidden -translate-y-1/2 items-center justify-center rounded-full border border-slate-200 bg-white p-2 opacity-0 shadow-md transition group-hover:opacity-100 hover:bg-white sm:p-3 md:flex"
         >
           <ChevronRight className="h-5 w-5 text-slate-700 sm:h-6 sm:w-6" />
         </button>
       </div>
 
-      {/* Esconde a scrollbar só neste scroller */}
       <style jsx global>{`
         .overflow-x-auto::-webkit-scrollbar {
           display: none;
