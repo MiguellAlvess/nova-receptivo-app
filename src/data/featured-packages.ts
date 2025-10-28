@@ -2,7 +2,7 @@ import { CardPackagesProps } from "@/components/ui/card-packages"
 
 export const featuredPackages: CardPackagesProps[] = [
   {
-    imageSrc: "/images/onibus-forro.jpg",
+    imageSrc: "/featured-packages/onibus-forro.jpg",
     imageAlt: "Ônibus do Forró",
     title: "Ônibus do Forró",
     description:
@@ -15,7 +15,7 @@ export const featuredPackages: CardPackagesProps[] = [
     rating: 4.8,
   },
   {
-    imageSrc: "/images/paris.jpg",
+    imageSrc: "/featured-packages/paris.jpg",
     imageAlt: "Paris – França",
     title: "Paris – França",
     description:
