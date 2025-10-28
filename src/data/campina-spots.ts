@@ -12,14 +12,14 @@ export const campinaSpots: CampinaSpot[] = [
     title: "Açude Velho",
     description:
       "Cartão-postal de Campina; ideal para caminhadas e pôr do sol.",
-    image: "/spots/acude-velho.jpg",
+    image: "/spots/acude-card.jpg",
     href: "https://maps.google.com/?q=Açude+Velho+Campina+Grande",
   },
   {
     id: "parque-do-povo",
     title: "Parque do Povo",
     description: "Palco do Maior São João do Mundo, com vila cenográfica.",
-    image: "/spots/parque-do-povo.jpg",
+    image: "/spots/parque-do-povo.webp",
     href: "https://maps.google.com/?q=Parque+do+Povo+Campina+Grande",
   },
   {
