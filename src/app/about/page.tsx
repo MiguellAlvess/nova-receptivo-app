@@ -1,5 +1,6 @@
 "use client"
 
+import Footer from "@/components/ui/footer"
 import Header from "@/components/ui/header"
 
 import StatCard from "./_components/stats-card"
@@ -26,6 +27,7 @@ const About = () => {
           <StatCard value="100+" description="destinos atendidos" />
         </section>
       </main>
+      <Footer />
     </div>
   )
 }
