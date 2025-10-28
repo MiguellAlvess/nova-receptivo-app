@@ -27,9 +27,9 @@ export default function FeaturedPackages({
           )}
         </div>
 
-        <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div className="flex flex-wrap justify-center gap-6">
           {items.map((item, idx) => (
-            <CardPackages key={idx} {...item} />
+            <CardPackages key={idx} {...item} className="shrink" />
           ))}
         </div>
       </div>
