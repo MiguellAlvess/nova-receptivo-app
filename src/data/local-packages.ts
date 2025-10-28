@@ -15,7 +15,7 @@ export type LocalPackage = {
 export const localPackages: LocalPackage[] = [
   {
     id: "caminhos-do-frio",
-    imageSrc: "/images/packages/caminhos-do-frio.jpg",
+    imageSrc: "/local-packages/caminhos-do-frio.jpg",
     imageAlt: "Rota Cultural Caminhos do Frio no Brejo Paraibano",
     title: "Caminhos do Frio (Brejo PB)",
     description:
@@ -29,7 +29,7 @@ export const localPackages: LocalPackage[] = [
   },
   {
     id: "lajedo-pai-mateus",
-    imageSrc: "/images/packages/lajedo-pai-mateus.jpg",
+    imageSrc: "/local-packages/lajedo-pai-mateus.jpg",
     imageAlt: "Formações rochosas do Lajedo de Pai Mateus",
     title: "Lajedo de Pai Mateus",
     description:
@@ -42,7 +42,7 @@ export const localPackages: LocalPackage[] = [
   },
   {
     id: "pico-do-jabre",
-    imageSrc: "/images/packages/pico-do-jabre.jpg",
+    imageSrc: "/local-packages/pico-do-jabre.jpg",
     imageAlt: "Vista do Pico do Jabre, ponto mais alto da Paraíba",
     title: "Trekking Pico do Jabre",
     description:
@@ -55,7 +55,7 @@ export const localPackages: LocalPackage[] = [
   },
   {
     id: "rota-dos-engenhos",
-    imageSrc: "/images/packages/bananeiras-engenhos.jpg",
+    imageSrc: "/local-packages/bananeiras-engenhos.webp",
     imageAlt: "Engenho de cachaça artesanal em Bananeiras",
     title: "Rota dos Engenhos (Bananeiras & Areia)",
     description:
@@ -68,7 +68,7 @@ export const localPackages: LocalPackage[] = [
   },
   {
     id: "litoral-sul-pb",
-    imageSrc: "/images/packages/coqueirinho.jpg",
+    imageSrc: "/local-packages/praia-de-coqueirinho.jpg",
     imageAlt: "Praia de Coqueirinho com falésias",
     title: "Praias do Litoral Sul (Coqueirinho & Tambaba)",
     description:
@@ -81,7 +81,7 @@ export const localPackages: LocalPackage[] = [
   },
   {
     id: "sao-joao-campina",
-    imageSrc: "/images/packages/campina-sao-joao.jpg",
+    imageSrc: "/local-packages/campina-sao-joao.jpg",
     imageAlt: "Quadrilhas e fogueiras no São João de Campina Grande",
     title: "São João de Campina Grande Experience",
     description:
