@@ -15,7 +15,7 @@ export type InternationalPackage = {
 export const internationalPackages: InternationalPackage[] = [
   {
     id: "buenos-aires",
-    imageSrc: "/images/packages/buenos-aires.jpg",
+    imageSrc: "/international-packages/buenos-aires.jpg",
     imageAlt: "Obelisco de Buenos Aires à noite",
     title: "Buenos Aires Clássica",
     description:
@@ -29,7 +29,7 @@ export const internationalPackages: InternationalPackage[] = [
   },
   {
     id: "santiago-andes",
-    imageSrc: "/images/packages/santiago-andes.jpg",
+    imageSrc: "/international-packages/santiago.webp",
     imageAlt: "Cordilheira dos Andes vista de Santiago",
     title: "Santiago + Andes",
     description:
@@ -42,7 +42,7 @@ export const internationalPackages: InternationalPackage[] = [
   },
   {
     id: "lisboa-sintra",
-    imageSrc: "/images/packages/lisboa.jpg",
+    imageSrc: "/international-packages/lisboa.jpg",
     imageAlt: "Praça do Comércio em Lisboa ao pôr do sol",
     title: "Lisboa & Sintra",
     description:
@@ -55,7 +55,7 @@ export const internationalPackages: InternationalPackage[] = [
   },
   {
     id: "roma",
-    imageSrc: "/images/packages/roma.jpg",
+    imageSrc: "/international-packages/roma.jpg",
     imageAlt: "Coliseu de Roma iluminado",
     title: "Roma Essencial",
     description:
@@ -68,7 +68,7 @@ export const internationalPackages: InternationalPackage[] = [
   },
   {
     id: "cancun",
-    imageSrc: "/images/packages/cancun.jpg",
+    imageSrc: "/international-packages/cancun.jpg",
     imageAlt: "Praias de Cancún com mar turquesa",
     title: "Cancún All-Inclusive",
     description:
@@ -81,7 +81,7 @@ export const internationalPackages: InternationalPackage[] = [
   },
   {
     id: "orlando",
-    imageSrc: "/images/packages/orlando.jpg",
+    imageSrc: "/international-packages/orlando.jpg",
     imageAlt: "Castelo da Disney em Orlando",
     title: "Orlando Parques",
     description:
