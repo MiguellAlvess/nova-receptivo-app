@@ -1,9 +1,10 @@
-import CampinaSpots from "@/components/ui/campina-spots"
+import HeroPackagePage from "@/app/packages/_components/hero-package-page"
 import Footer from "@/components/ui/footer"
 import Header from "@/components/ui/header"
-import HeroPackagePage from "@/components/ui/hero-package-page"
-import InternationalPackages from "@/components/ui/international-packages"
-import LocalPackages from "@/components/ui/local-packages"
+
+import CampinaSpots from "./_components/campina-spots"
+import InternationalPackages from "./_components/international-packages"
+import LocalPackages from "./_components/local-packages"
 
 const Home = () => {
   return (

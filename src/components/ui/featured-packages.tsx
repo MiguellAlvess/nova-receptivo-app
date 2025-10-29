@@ -1,6 +1,8 @@
 "use client"
 
-import CardPackages, { CardPackagesProps } from "./card-packages"
+import CardPackages, {
+  CardPackagesProps,
+} from "../../app/packages/_components/card-packages"
 
 type FeaturedPackagesProps = {
   title?: string
