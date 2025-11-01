@@ -36,7 +36,7 @@ export default function LocalPackages() {
           ref={scrollerRef}
           className="-mx-4 overflow-x-auto scroll-smooth px-4 pb-2 [-ms-overflow-style:none] [scrollbar-width:none]"
         >
-          <div className="flex snap-x snap-mandatory gap-3 sm:gap-4">
+          <div className="flex snap-x snap-mandatory gap-3 after:block after:w-6 after:shrink-0 after:content-[''] sm:gap-4 sm:after:w-0">
             {localPackages.map((pkg) => (
               <div
                 key={pkg.id}
