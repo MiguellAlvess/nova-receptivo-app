@@ -38,7 +38,7 @@ export default function CardPackages({
   return (
     <article
       className={cn(
-        "group xs:w-[260px] w-[240px] shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md sm:w-[280px] md:w-[300px] lg:w-[320px]",
+        "group xs:w-[260px] w-60 shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md sm:w-[280px] md:w-[300px] lg:w-[320px]",
         className,
       )}
     >
