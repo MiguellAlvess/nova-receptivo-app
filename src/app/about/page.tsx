@@ -5,12 +5,26 @@ import Header from "@/components/ui/header"
 
 import StatCard from "./_components/stats-card"
 
-const About = () => {
+export default function About() {
   return (
     <div className="bg-background flex min-h-screen flex-col">
       <Header />
 
-      <main className="mx-auto w-full max-w-screen-lg flex-1 px-6 py-10 sm:px-8 lg:px-12">
+      <main className="mx-auto w-full max-w-5xl flex-1 px-6 py-10 sm:px-8 lg:px-12">
+        <div className="relative mb-10 w-full overflow-hidden rounded-2xl shadow-lg">
+          <video
+            className="h-[220px] w-full object-cover sm:h-[380px] md:h-[450px] lg:h-[520px]"
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="none"
+            poster="/images/video-poster.jpg"
+          >
+            <source src="/videos/quem-somos.mp4" type="video/mp4" />
+          </video>
+        </div>
+
         <h1 className="text-center text-3xl font-bold text-[#1E4661] sm:text-4xl">
           Quem somos
         </h1>
@@ -27,9 +41,8 @@ const About = () => {
           <StatCard value="100+" description="destinos atendidos" />
         </section>
       </main>
+
       <Footer />
     </div>
   )
 }
-
-export default About
