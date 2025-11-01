@@ -18,7 +18,7 @@ export default function CampinaSpotCard({
   href,
 }: Props) {
   return (
-    <article className="group xs:w-[260px] w-[240px] shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md sm:w-[280px] md:w-[300px] lg:w-[320px]">
+    <article className="group xs:w-[260px] w-60 shrink-0 overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition hover:shadow-md sm:w-72 md:w-75 lg:w-80">
       <div className="xs:h-40 relative h-36 w-full sm:h-44 md:h-48 lg:h-56">
         <Image
           src={image}

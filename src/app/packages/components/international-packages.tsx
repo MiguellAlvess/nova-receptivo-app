@@ -3,9 +3,8 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useRef } from "react"
 
+import CardPackages from "@/components/ui/card-packages"
 import { internationalPackages } from "@/data/international-packages"
-
-import CardPackages from "./card-packages"
 
 export default function InternationalPackages() {
   const scrollerRef = useRef<HTMLDivElement>(null)
