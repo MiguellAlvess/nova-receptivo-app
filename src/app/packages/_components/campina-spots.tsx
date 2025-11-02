@@ -3,10 +3,10 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useRef } from "react"
 
-import CardPackages from "@/components/ui/card-packages"
-import { localPackages } from "@/data/local-packages"
+import CampinaSpotCard from "@/app/packages/_components/campina-spot-card"
+import { campinaSpots } from "@/data/campina-spots"
 
-export default function LocalPackages() {
+export default function CampinaSpots() {
   const scrollerRef = useRef<HTMLDivElement>(null)
 
   const scroll = (dir: "left" | "right") => {
@@ -18,15 +18,15 @@ export default function LocalPackages() {
 
   return (
     <section
-      aria-labelledby="local-packages-heading"
+      aria-labelledby="campina-spots-heading"
       className="relative mx-auto max-w-6xl px-4 py-8 sm:py-10 md:px-6 md:py-14"
     >
       <div className="mb-4 flex items-end justify-between sm:mb-6">
         <h2
-          id="local-packages-heading"
+          id="campina-spots-heading"
           className="text-xl font-bold tracking-tight text-slate-900 sm:text-2xl md:text-3xl"
         >
-          Pacotes locais na Paraíba
+          Pontos turísticos de Campina Grande
         </h2>
       </div>
 
@@ -36,23 +36,17 @@ export default function LocalPackages() {
           className="-mx-4 overflow-x-auto scroll-smooth px-4 pb-2 [-ms-overflow-style:none] [scrollbar-width:none]"
         >
           <div className="flex snap-x snap-mandatory gap-3 after:block after:w-6 after:shrink-0 after:content-[''] sm:gap-4 sm:after:w-0">
-            {localPackages.map((pkg) => (
+            {campinaSpots.map((s) => (
               <div
-                key={pkg.id}
+                key={s.id}
                 className="snap-center md:snap-start"
-                aria-label={pkg.title}
+                aria-label={s.title}
               >
-                <CardPackages
-                  imageSrc={pkg.imageSrc}
-                  imageAlt={pkg.imageAlt}
-                  title={pkg.title}
-                  description={pkg.description}
-                  duration={pkg.duration}
-                  people={pkg.people}
-                  price={pkg.price}
-                  href={pkg.href}
-                  featured={pkg.featured}
-                  rating={pkg.rating}
+                <CampinaSpotCard
+                  title={s.title}
+                  description={s.description}
+                  image={s.image}
+                  href={s.href}
                 />
               </div>
             ))}

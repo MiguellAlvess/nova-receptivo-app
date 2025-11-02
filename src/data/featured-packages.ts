@@ -1,4 +1,4 @@
-import { CardPackagesProps } from "@/components/ui/card-packages"
+import { CardPackagesProps } from "@/app/packages/_components/card-packages"
 
 export const featuredPackages: CardPackagesProps[] = [
   {

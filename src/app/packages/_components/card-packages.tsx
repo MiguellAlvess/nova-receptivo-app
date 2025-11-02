@@ -4,9 +4,8 @@ import { Clock, Star, Users } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 
+import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
-
-import { Button } from "./button"
 
 export type CardPackagesProps = {
   imageSrc: string

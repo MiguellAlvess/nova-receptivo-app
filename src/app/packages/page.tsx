@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Footer from "@/components/ui/footer"
 import Header from "@/components/ui/header"
 
@@ -5,6 +6,15 @@ import CampinaSpots from "./components/campina-spots"
 import HeroPackagePage from "./components/hero-package-page"
 import InternationalPackages from "./components/international-packages"
 import LocalPackages from "./components/local-packages"
+=======
+import HeroPackagePage from "@/app/packages/_components/hero-package-page"
+import Footer from "@/components/ui/footer"
+import Header from "@/components/ui/header"
+
+import CampinaSpots from "./_components/campina-spots"
+import InternationalPackages from "./_components/international-packages"
+import LocalPackages from "./_components/local-packages"
+>>>>>>> main
 
 const Home = () => {
   return (
