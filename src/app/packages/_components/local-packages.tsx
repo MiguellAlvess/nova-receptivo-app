@@ -3,11 +3,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useRef } from "react"
 
-<<<<<<<< HEAD:src/app/packages/components/local-packages.tsx
-import CardPackages from "@/components/ui/card-packages"
-========
 import CardPackages from "@/app/packages/_components/card-packages"
->>>>>>>> main:src/app/packages/_components/local-packages.tsx
 import { localPackages } from "@/data/local-packages"
 
 export default function LocalPackages() {

@@ -3,7 +3,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { useRef } from "react"
 
-import CardPackages from "@/components/ui/card-packages"
+import CardPackages from "@/app/packages/_components/card-packages"
 import { internationalPackages } from "@/data/international-packages"
 
 export default function InternationalPackages() {
